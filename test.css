@@ -1,0 +1,82 @@
+body {
+    font-family: 'Alata';font-size: 20px;
+  }
+
+
+#container {
+	max-width: 1200px;
+	margin: 0 auto;
+		}
+img {
+        max-width: 100%;
+        overflow: hidden;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #000;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 62px;
+  margin-bottom: 0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #FFC600;
+  color: black;
+}
+
+#content {
+	background-color: #fff;
+	padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+}
+
+.gallery {
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding: 20px;
+ width: 72px;
+  height: 72px;
+}
+
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+}
+
+.icons {
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding: 20px;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+    display: block;
+    border-style:none;
+}
